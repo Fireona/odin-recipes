@@ -1,0 +1,33 @@
+/* Light Mode (Default) */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0b0911;
+        color: #9b9b9b;
+    }
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    margin-left: 15%;
+}
+
+h1 {
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.food-image-desc {
+    font-style: italic;
+}
+
+.optional {
+    font-style: italic;
+}
